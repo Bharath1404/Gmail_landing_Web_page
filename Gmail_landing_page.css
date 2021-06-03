@@ -1,0 +1,268 @@
+*,*::before,*::after{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Newsreader', serif;
+    font-family: 'Prompt', sans-serif; 
+}
+header img{
+    height: 34px;
+    padding-right: 8px;
+}
+header{
+    background:white;
+    box-shadow: 0 0 4px 4px #eee;
+    padding:0 2%;
+    position:fixed;
+    width:100%;
+}
+.clears{
+    height: 50px;
+} 
+.clears1{
+    height: 150px;
+}
+a{
+    display:inline-block; 
+    color:#666;
+}
+.mr-right{
+    margin-right: auto;
+}
+a:hover{
+    color: black;
+}
+.header-mobile nav{
+    height:56px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #ddd;
+    letter-spacing: 0.10px;
+}
+.header-desktop nav{
+    height:64px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #ddd;
+    letter-spacing: 0.10px;
+}
+footer img{
+    height:30px;
+}
+.btn{
+    color:white;
+    background:#1a73e8;
+    font-size: 16px;
+    padding: 3px 24px;
+    line-height: 30px;
+    border-radius: 2px;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+.btn:hover{
+    color: white;
+    background:#174ea6;
+    
+}
+.gmail-logo-text{
+    font-size: 28px;
+    color:#444;
+    font-weight:500;
+}
+
+footer{
+    padding:32px 16px;
+    background:#f8f8f8;
+}
+
+footer{
+    padding:32px 16px;
+    background:#f8f8f8;
+}
+footer img{
+    height:50px;
+}
+footer nav{
+    margin:32px 0px;
+}
+footer ul{
+    display:flex;
+    list-style:none;
+}
+
+footer li{
+    margin-right:16px;
+}
+footer select{
+    margin-left:16px;
+    border:none;
+    background-color:#dbdada;
+    padding:8px;
+    width:160px;
+
+}
+
+/* sections */
+section{
+    padding:24px;
+    display:flex;
+    flex-direction: column;
+    align-center: center;
+    justify-content: center;
+}
+
+h1, h2 {
+    font-size:28px;
+    color:#222;
+    font-weight:600;
+    text-align:center;
+    margin:24px 0px;
+}
+p{
+    text-align:center;
+    margin:12px;
+}
+
+.two-images{
+    display:flex;
+}
+div img{
+width: 150px;
+padding-top:30px;
+margin-left: auto;
+margin-right:auto;
+
+}
+.btns{
+    color:white;
+    background:#1a73e8;
+    font-size: 16px;
+    padding: 3px 24px;
+    line-height: 30px;
+    border-radius: 2px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    width: 150px;
+    margin-left: auto;
+    margin-right:auto;
+}
+.btns:hover{
+    color: white;
+    background:#174ea6;
+}
+.centers{
+    margin-left:auto;
+    margin-right:auto;
+}
+.first-image{
+    width: 150px;
+    height: 50px;
+
+}
+.Get-Gmail_section
+{
+    background:#f8f8f8;
+    margin-top:56px;
+}
+.stay-organised-instantly-section,
+.never-drop-the-ball-section , .Avoid-suspicious-emails{
+    background:#f8f8f8;
+    border-style: solid;
+    border-width:24px;
+    border-color:white;
+}
+
+/* responsive web design */
+.mobile.only{
+
+}
+
+.desktop-only{
+    display:none;
+}
+.header-mobile{
+    position:fixed;
+}
+
+.header-desktop{
+    position:fixed;
+
+}
+
+.header-desktop a{
+    margin-left:20px;
+}
+.header-desktop .btn{
+    line-height:48px;
+}
+.flexing-desktop img{
+    max-width:100%;
+    height:auto;
+
+}
+.flexing-desktop{
+    width:800;
+    height:auto;
+}
+
+
+
+@media (min-width:800px){
+    h1{
+        font-size:48px;
+    }
+    h2{
+        font-size:42px;
+    }
+    .mobile-only{
+        display:none;
+    }
+    .desktop-only{
+        display:block;
+    }
+    Get-Gmail_section{
+        display:grid;
+    }
+    .from-the-inbox-desktop{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 5%;
+    }
+    .from-the-inbox p,.from-the-inbox h2,
+    .from-the-inbox-desktop p,.from-the-inbox-desktop h2{
+        text-align:left;
+    }
+
+    .Avoid-suspicious-emails-desktop{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 5%;
+    }
+
+     Avoid-suspicious-emails-desktop p,.Avoid-suspicious-emails-desktop h2{ */
+        margin-left: 10px;
+        margin-top: 70px;
+        text-align:center;
+
+    }
+    .Avoid-suspicious-emails-desktop img{
+        width: 80%;
+        margin-left:10%;
+    }
+    .flexing-desktop{
+        display:grid;
+        grid-template-columns: 50% 50%;
+        grid-column:5%;
+    }
+    
+        
+
+}
+img{
+    max-width:100%;
+}
